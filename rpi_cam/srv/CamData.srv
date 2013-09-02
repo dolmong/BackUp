@@ -1,0 +1,7 @@
+string strPath
+string strName
+int16 nWidth
+int16 nHeight
+int16 nTime
+bool bMode
+---
