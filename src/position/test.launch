@@ -1,0 +1,9 @@
+<launch>
+	<node name="Position" pkg="position" type="position_node" output="screen">
+		<param name="RefPath" value="/home/pi/picture/Database"/>
+		<param name="InPath" value="/home/pi/picture"/>
+		<param name="InName" value="(0,1)_deg(0).bmp"/>
+	</node>
+	<!-- <node name="Viewer" pkg="viewer" type="viewer_node" output="screen"> -->
+	<!-- </node> -->
+</launch>

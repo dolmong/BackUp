@@ -1,0 +1,8 @@
+<launch>
+	<node name="Main" pkg="matching_test" type="matching_test_node" output="screen">
+		<param name="RefPath" value="/home/pi/picture/Database"/>
+		<param name="RefName" value="(0,2).bmp"/>
+		<param name="InPath" value="/home/pi/picture/Database"/>
+		<param name="InName" value="(0,3).bmp"/>
+	</node>
+</launch>
